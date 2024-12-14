@@ -7,6 +7,12 @@ The project utilized a GAN-inspired setup:
 1. **Generator**: Created answers for 30 challenging questions.
 2. **Discriminator**: Rephrased questions to increase difficulty, incorporating up to five feedback rounds per question.
 
+### Special Features
+- **GAN Workflow with LangGraph**: Utilized LangGraph to construct and visualize the GAN-inspired workflow, enabling seamless integration and execution of the question generation and evaluation process.
+- **API Abstraction with LangChain**: Leveraged LangChain to abstract API calls, simplifying interactions with various LLMs and ensuring modular and maintainable code.
+- **Adaptive Question Difficulty**: Implemented a feedback loop mechanism to iteratively increase question difficulty, challenging LLMs progressively.
+- **Automated Evaluation**: Integrated automated evaluation using advanced LLMs to assess the correctness of generated answers, providing immediate feedback and scoring.
+
 ### Question Design
 - Focused on riddles, lengthy distracting details, and confusing phrasing to challenge LLMs while remaining solvable for humans.
 - Example: *The mother of the person in this photograph is the daughter of my mother.*
